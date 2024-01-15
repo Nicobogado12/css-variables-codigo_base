@@ -1,3 +1,10 @@
+
+:root{
+	--color-primary: #f31abd;
+	--titulo-principal: 'Lato', sans-serif;
+}
+
+
 * {
 	padding: 0;
 	margin: 0;
@@ -58,10 +65,10 @@ header .btn {
 }
 
 header .btn.primario {
-	background: #505EF4;
+	background: var(--color-primary);
 }
 header .btn.primario:hover {
-	background: #3041F8;
+	background:  var(--color-primary);
 }
 
 header .btn.secundario {
@@ -113,10 +120,10 @@ main .card .btn {
 }
 
 main .card .btn.primario {
-	background: #505EF4;
+	background: var(--color-primary);
 }
 main .card .btn.primario:hover {
-	background: #3041F8;
+	background:  var(--color-primary);
 }
 
 main .card .btn.secundario {
